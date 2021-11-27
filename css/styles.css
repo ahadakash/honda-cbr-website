@@ -1,0 +1,161 @@
+/*----- Body Style------ */
+.text-color{
+    color: #E76F51;
+}
+.h1-style{
+    font-weight: 700;
+}
+p{
+    color: #E0E0E0;
+    font-weight: 300;
+}
+
+
+/*-------------- Header Style ---------------- */
+
+/*----- Nav Bar Id Set------ */
+
+
+/*----- Honda Header Section Style ----- */
+
+.honda{
+    height: 570px;
+}
+.header-honda-padding{
+    padding-left: 10%;
+}
+
+.honda-h1-style{
+    font-size: 55px;
+}
+
+.honda-p-style{
+    margin-top: 18px;
+    text-align: justify;
+    padding-right: 20%;
+}
+
+.purchase-button-style{
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+    margin-left: 10%;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-weight: 500;
+}
+
+
+/*---------------- Main Style -----------------  */
+
+/*---- Fetured Bikes Section Style ---- */
+
+hr{
+    width: 59px; 
+}
+.fetured-p-color{
+    color: #E76F51;
+    font-weight: 700;
+}
+.fetured-bikes img{
+    width: 400px;
+}
+
+/*---- Happy Clients Section Style ---- */
+
+.happy-client p{
+    font-weight: 700;
+
+}
+.happy-client{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.happy-h1-margin{
+    margin-top: 120px;
+    margin-bottom: 52px;
+}
+
+.happy-client img{
+    width: 150px;
+}
+
+.fas, .far{
+    color: #E77C40;
+}
+.h6-color{
+    color: #23A6F0;
+}
+
+/*---- Frequently Asked Section Style ---- */
+.frequently-h1-margin{
+    margin-bottom: 112px;
+    margin-top: 159px;
+}
+
+.frequently-asked img{
+    width: 432px;
+}
+
+/*---- Extra Section-1 Style---- */
+
+
+
+/*--------------- Media Query ---------------- */
+
+@media (max-width: 360px) {
+    .honda{
+        height: 600px;
+    }
+    .honda-h1-style{
+        font-size: 30px;
+    }
+    .header-honda-padding{
+        padding-left: 0;
+    }
+    .purchase-button-style{
+        margin-left: 0;
+    }
+    .honda-p-style{
+        margin-top: 0;
+        padding: 0;
+    }
+
+    hr{
+        width: 0;
+    }
+    .fetured-margin{
+        margin-top: 10%;
+        
+    }
+    .fetured-bikes img{
+        width: 288px;
+        padding-left: 7%;
+        padding-right: 0;
+        
+    }
+    .happy-client{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .happy-client img{
+        width: 149px;
+    }
+    .happy-h1-margin{
+        margin-top: 80px;
+        margin-bottom: 82px;
+        padding: 0;
+    }
+    
+    .frequently-h1-margin{
+        margin-bottom: 23px;
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .frequently-asked img{
+        width: 270px;
+    }
+}
